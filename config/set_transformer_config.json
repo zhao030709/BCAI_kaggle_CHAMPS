@@ -1,0 +1,29 @@
+{
+  "model": {
+    "d_model": 256,
+    "n_encoder_layers": 6,
+    "n_heads": 8,
+    "d_ff": 1024,
+    "n_coupling_types": 8,
+    "max_atoms": 100,
+    "dropout": 0.1
+  },
+  "loss_type": "combined",
+  "loss_params": {
+    "alpha": 1.0,
+    "beta": 0.5,
+    "lambda_hungarian": 1.0,
+    "lambda_chamfer": 0.5
+  },
+  "optimizer": "adamw",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "batch_size": 8,
+  "epochs": 100,
+  "grad_clip": 1.0,
+  "scheduler_patience": 10,
+  "early_stopping_patience": 20,
+  "save_every": 5,
+  "checkpoint_dir": "checkpoints/set_transformer",
+  "log_dir": "runs/set_transformer"
+}

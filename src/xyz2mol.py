@@ -409,7 +409,11 @@ def xyz2AC(atomicNumList,xyz):
     return AC,mol
 
 def chiral_stereo_check(mol):
-    Chem.SanitizeMol(mol)
+    try:
+        Chem.SanitizeMol(mol, sanitizeOps=Chem.SanitizeFlags.SANITIZE_ALL^Chem.SanitizeFlags.SANITIZE_PROPERTIES)
+    except ValueError:
+        # Sanitization may fail for some structures, we can try to continue without it
+        pass
     Chem.DetectBondStereochemistry(mol,-1)
     Chem.AssignStereochemistry(mol, flagPossibleStereoCenters=True, force=True)
     Chem.AssignAtomChiralTagsFromStructure(mol,-1)

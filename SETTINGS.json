@@ -1,7 +1,0 @@
-{
-    "RAW_DATA_DIR": "./data/",
-    "PROCESSED_DATA_DIR": "./processed/",
-    "MODEL_DIR": "./models/",
-    "SUBMISSION_DIR": "./submissions/",
-    "CONFIG_DIR": "./config/"
-}

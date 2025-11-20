@@ -1,0 +1,22 @@
+name: champs-gpu
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - numpy<2.0
+  - pandas<2.0
+  - tqdm
+  - rdkit
+  - openbabel
+  - pytorch-cuda=12.1
+  - pytorch=2.2.*
+  - torchvision
+  - torchaudio
+  - pip:
+      - termcolor
+      - scikit-learn
+      - einops
+      - sympy

@@ -1,0 +1,38 @@
+Training Subset Information
+==================================================
+
+Number of molecules: 20
+Total bonds: 1175
+Total atoms: 344
+
+Type distribution:
+3JHC    286
+2JHC    244
+1JHC    173
+3JHH    166
+2JHH    140
+3JHN     98
+2JHN     38
+1JHN     30
+
+Molecules:
+dsgdb9nsd_001248
+dsgdb9nsd_001484
+dsgdb9nsd_001089
+dsgdb9nsd_001334
+dsgdb9nsd_001541
+dsgdb9nsd_001277
+dsgdb9nsd_001515
+dsgdb9nsd_001517
+dsgdb9nsd_001616
+dsgdb9nsd_001122
+dsgdb9nsd_001662
+dsgdb9nsd_001179
+dsgdb9nsd_001278
+dsgdb9nsd_001123
+dsgdb9nsd_001039
+dsgdb9nsd_001061
+dsgdb9nsd_001330
+dsgdb9nsd_001169
+dsgdb9nsd_001322
+dsgdb9nsd_001519

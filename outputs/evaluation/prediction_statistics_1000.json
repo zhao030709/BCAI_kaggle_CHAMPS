@@ -1,0 +1,97 @@
+{
+  "predictions": {
+    "total_count": 20000,
+    "unique_molecules": 1000,
+    "j_value_stats": {
+      "mean": 4.736980280160904,
+      "median": 5.387610912322998,
+      "std": 1.1804536521414322,
+      "min": 1.8525625467300413,
+      "max": 5.634006023406982,
+      "percentile_25": 5.004035472869873,
+      "percentile_75": 5.40866231918335
+    },
+    "type_distribution": {
+      "counts": {
+        "3JHH": 12008,
+        "3JHC": 4199,
+        "2JHC": 3793
+      },
+      "percentages": {
+        "3JHH": 60.040000000000006,
+        "3JHC": 20.995,
+        "2JHC": 18.965
+      }
+    }
+  },
+  "ground_truth": {
+    "total_count": 905,
+    "j_value_stats": {
+      "mean": 4.579460685424383,
+      "median": 5.490396499633789,
+      "std": 1.8108118500152606,
+      "min": 0.7095749378204346,
+      "max": 7.197741985321045,
+      "percentile_25": 3.016432285308838,
+      "percentile_75": 6.044188499450684
+    },
+    "type_distribution": {
+      "counts": {
+        "3JHC": 411,
+        "3JHH": 327,
+        "2JHC": 167
+      },
+      "percentages": {
+        "3JHC": 45.414364640883974,
+        "3JHH": 36.13259668508287,
+        "2JHC": 18.45303867403315
+      }
+    }
+  },
+  "by_type_comparison": {
+    "2JHC": {
+      "predictions": {
+        "count": 3793,
+        "j_mean": 2.318908808446955,
+        "j_std": 0.025299664810251817
+      },
+      "ground_truth": {
+        "count": 167,
+        "j_mean": 1.7326672505475804,
+        "j_std": 0.7380323096431651
+      },
+      "mean_difference": 0.5862415578993747
+    },
+    "3JHC": {
+      "predictions": {
+        "count": 4199,
+        "j_mean": 5.013859936554508,
+        "j_std": 0.04231332717073161
+      },
+      "ground_truth": {
+        "count": 411,
+        "j_mean": 4.726745689002267,
+        "j_std": 1.5005999466248436
+      },
+      "mean_difference": 0.2871142475522408
+    },
+    "3JHH": {
+      "predictions": {
+        "count": 12008,
+        "j_mean": 5.403962909659094,
+        "j_std": 0.03683408654613307
+      },
+      "ground_truth": {
+        "count": 327,
+        "j_mean": 5.848207985589264,
+        "j_std": 0.4357274866743951
+      },
+      "mean_difference": -0.44424507593017015
+    }
+  },
+  "distribution_similarity": {
+    "j_value_mean_diff": 0.1575195947365211,
+    "j_value_median_diff": -0.10278558731079102,
+    "type_distribution_correlation": null
+  }
+}

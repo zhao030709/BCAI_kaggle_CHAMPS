@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 大型模型文件 (保留最佳检查点)
+models/model_*/
+checkpoints/*.pt
+!checkpoints/set_transformer/checkpoint_epoch35_best.pt
+!checkpoints/set_transformer/checkpoint_epoch48_best.pt
+*.ckpt
+*.pth
+*.h5
+*.hdf5
+
+# 大型数据文件
+data/train.csv
+data/test.csv
+data/structures.csv
+*.pkl
+*.pickle
+
+# 中间处理文件
+processed/
+runs/
+.tensorboard/
+
+# 输出结果 (保留关键评估结果)
+outputs/predictions/*.csv
+!outputs/predictions/test_predictions_1000_filtered.csv
+outputs/evaluation/*.csv
+# 保留JSON格式的评估结果
+!outputs/evaluation/*.json
+
+# 临时文件
+*.tmp
+*.log
+*.out
+experimental_j_values.pkl
+smiles_3d_features_output.csv
+assigned_dataset_part0.csv
+
+# 文档草稿
+*.docx
+~$*.docx
+
+# Shell脚本输出
+*.sh.log
+preproc_*.out
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Git
+*.orig
+*.rej
